@@ -1,0 +1,18 @@
+.navbar{
+    background: rgb(20, 20, 20);
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+}
+
+.heading{
+    color: rgb(233, 233, 233);
+    align-items: center;
+    text-decoration: none;
+    display: flex;
+    cursor: pointer;
+    font-size: 32px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+}
