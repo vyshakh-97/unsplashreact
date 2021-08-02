@@ -5,7 +5,6 @@ import { ImageContext } from '../context/Contextprovider'
 import "../styles/Gallery.css"
 const Image = () => {
     const {imageinfo} = useContext(ImageContext);
-    const collection=imageinfo.user.links.portfolio;
     console.log(imageinfo);
     return (
         <>
@@ -14,7 +13,7 @@ const Image = () => {
         <img src={imageinfo.urls.regular} />
         <div className="user">
         
-        <a href={collection}>
+        <a href={imageinfo.user.links.html}>
         
             <img src={imageinfo.user.profile_image.small} />
             <span className="usertext">
