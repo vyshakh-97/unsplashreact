@@ -1,11 +1,9 @@
-import React from "react";
+import {React,useContext} from "react"
 import {BrowserRouter as Router, Switch, Route, BrowserRouter} from 'react-router-dom';
-import Home from "./screens/Home";
-
-import {ImageContextProvider}  from './context/Contextprovider';
+import Home from "./screens/Home"
+import {ImageContextProvider,ImageContext}  from './context/Contextprovider'
 import Image from "./screens/Image";
 function App() {
-  
   return (
     <ImageContextProvider>
     <BrowserRouter>
@@ -13,7 +11,7 @@ function App() {
          <Route path="/" exact>
         <Home />
         </Route>  
-       <Route path="/images" exact>
+       <Route path="/image" exact>
         <Image />
         </Route>
         </Switch> 

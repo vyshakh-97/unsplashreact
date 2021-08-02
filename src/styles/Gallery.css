@@ -13,3 +13,47 @@
     width: 100%;
     object-fit: cover;
 }
+
+.imagedisplay{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem auto;
+    max-height: 25%;
+    max-width: 25%;
+}
+
+.imagedisplay img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.user{
+    padding-top: 30px;
+    font-family:monospace;
+    font-weight: 600;
+    font-size: 22px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-self: center;
+}
+
+.user img{
+    position: inherit;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.usertext{
+    margin:0 auto;
+}
